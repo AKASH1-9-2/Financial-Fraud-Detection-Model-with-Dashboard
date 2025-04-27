@@ -8,18 +8,30 @@ The goal of this project is to perform a detailed financial transaction analysis
 The dataset used contains records of financial transactions and has the following key columns:
 
 
-**Column Name** |	**Description**
+**Column Name**   |	**Description**
+
 step	          |  Represents the time step of the transaction (in hours).
-type            |	Type of transaction (PAYMENT, TRANSFER, CASH_OUT, CASH_IN, DEBIT).
-amount          |  The amount of money transferred in the transaction.
-nameOrig        |	 Customer ID of the originator (sender).
-oldbalanceOrg   |  Initial balance of the originator before the transaction.
-newbalanceOrig  |	 New balance of the originator after the transaction.
+
+type              |	Type of transaction (PAYMENT, TRANSFER, CASH_OUT, CASH_IN, DEBIT).
+
+amount            |  The amount of money transferred in the transaction.
+
+nameOrig          |	 Customer ID of the originator (sender).
+
+oldbalanceOrg     |  Initial balance of the originator before the transaction.
+
+newbalanceOrig    |	 New balance of the originator after the transaction.
+
 nameDest	      |  Customer ID of the recipient.
-oldbalanceDest  |  Initial balance of the recipient before the transaction.
-newbalanceDest  |	New balance of the recipient after the transaction.
-isFraud	        |  1 if the transaction is fraudulent, 0 otherwise.
-isFlaggedFraud  |	1 if the transaction is flagged as suspicious by the system, 0 otherwise.
+
+oldbalanceDest    |  Initial balance of the recipient before the transaction.
+
+newbalanceDest    |	New balance of the recipient after the transaction.
+
+isFraud	          |  1 if the transaction is fraudulent, 0 otherwise.
+
+isFlaggedFraud    |	1 if the transaction is flagged as suspicious by the system, 0 otherwise.
+
 
 **Dataset Observations:**
 
