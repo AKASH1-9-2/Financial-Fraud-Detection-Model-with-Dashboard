@@ -97,6 +97,7 @@ The Power BI dashboard created includes the following visualizations:
 **Conclusion:**
 This Power BI dashboard provides a clear view of transaction types, volume, fraud distribution, and risky destinations. It can be extremely helpful for financial institutions to focus their fraud detection efforts, monitor suspicious accounts, and take preventive measures.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 This project was an incredible learning experience, fostering teamwork, innovation, and problem-solving skills. 
 
